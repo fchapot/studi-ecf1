@@ -126,12 +126,16 @@ table {
   margin-top: 1rem;
 }
 
+.accueil ul {
+  margin: 1rem 0;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
 
 .header__navbar {
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 
 .header__navbar ul li a:hover {
@@ -140,19 +144,32 @@ body {
 
 .header__baseline {
   text-align: center;
-  font-size: 2.5em;
+  font-size: 2.5rem;
   color: #434343;
   font-family: "Allison", cursive;
 }
 
-.ferme-brassicole p {
-  color: #666;
+.accueil p, .accueil ul {
+  text-align: justify;
+  padding: 0 5%;
+  line-height: 1.5rem;
+  color: #6c6c6c;
   font-size: 0.9em;
+}
+
+.accueil h2 {
+  text-align: center;
+  margin-bottom: 8px;
+  font-size: 2em;
+  font-family: "Cormorant Infant", serif;
 }
 
 @media screen and (min-width: 391px) {
   .header__navbar {
-    font-size: 1.1em;
+    font-size: 1.1rem;
+  }
+  .accueil p, .accueil ul {
+    font-size: 1rem;
   }
 }
 .header {
@@ -182,12 +199,19 @@ body {
   align-items: center;
   list-style: none;
 }
-.ferme-brassicole {
+.header__navbar ul li a.active {
+  text-decoration: underline;
+}
+.accueil {
   padding: 0;
 }
-.ferme-brassicole__visuel img {
+.accueil__visuel img {
   width: 100%;
 }
-.ferme-brassicole asside {
+.accueil asside {
   padding: 20%;
+}
+.accueil ul {
+  list-style: square;
+  margin-left: 30px;
 }/*# sourceMappingURL=style.css.map */

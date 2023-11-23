@@ -5,22 +5,32 @@ body
     font-family: font.$font-sans-serif
 
 %text-menu
-    font-size: 0.9em
+    font-size: 0.9rem
 
 %menu-hover
     color: color.$white
 
 %text-baseline
     text-align: center
-    font-size: 2.5em
+    font-size: 2.5rem
     color: color.$grey-dark
     font-family: font.$font-baseline
 
 %paragraphe
-    color: #666
-    font-size: 0.9em
+    text-align: justify
+    padding: 0 5%
+    line-height: 1.5rem
+    color: color.$font-grey
+    font-size: .9em
 
+%h2-title
+    text-align: center
+    margin-bottom: 8px
+    font-size: 2em
+    font-family: font.$mid-title
 
 @media screen and (min-width: 391px)
     %text-menu
-        font-size: 1.1em
+        font-size: 1.1rem
+    %paragraphe
+        font-size: 1rem

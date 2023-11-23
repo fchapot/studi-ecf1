@@ -34,18 +34,28 @@
         justify-content: space-around
         align-items: center
         list-style: none
+
+    &__navbar ul li a.active
+        text-decoration: underline
     
     &__navbar ul li a:hover
         @extend %menu-hover
 
-.ferme-brassicole
+.accueil
     padding: 0
     &__visuel img
         width: 100%
     & asside
         padding: 20%
-    p
+    h2
+        @extend %h2-title
+    p, ul
         @extend %paragraphe
+    ul
+        list-style: square
+        margin-left: 30px
+        @extend %topbott-s
+    
         
 
 
