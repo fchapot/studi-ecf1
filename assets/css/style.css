@@ -1,4 +1,177 @@
-* {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header__navbar {
+  margin-top: 1rem;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.header__navbar {
+  font-size: 0.9em;
+}
+
+.header__navbar ul li a:hover {
+  color: #f1f1f1;
+}
+
+.header__baseline {
+  text-align: center;
+  font-size: 2.5em;
+  color: #434343;
+  font-family: "Allison", cursive;
+}
+
+@media screen and (min-width: 391px) {
+  .header__navbar {
+    font-size: 1.1em;
+  }
+}
+.header {
+  display: flex;
+  padding: 1.5rem 0;
+}
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header__logo {
+  width: 20rem;
+  margin: 1rem;
+}
+.header__navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #94d2ee;
+  padding: 5px;
+}
+.header__navbar ul {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.ferme-brassicole {
+  padding: 0;
+}
+.ferme-brassicole__visuel img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */

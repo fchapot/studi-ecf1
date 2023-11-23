@@ -1,0 +1,21 @@
+@use 'fonts' as font
+@use 'colors' as color
+
+body
+    font-family: font.$font-sans-serif
+
+%text-menu
+    font-size: 0.9em
+
+%menu-hover
+    color: color.$white
+
+%text-baseline
+    text-align: center
+    font-size: 2.5em
+    color: color.$grey-dark
+    font-family: font.$font-baseline
+
+@media screen and (min-width: 391px)
+    %text-menu
+        font-size: 1.1em
