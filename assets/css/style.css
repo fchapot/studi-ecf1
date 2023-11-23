@@ -114,6 +114,14 @@ table {
   border-spacing: 0;
 }
 
+.flux {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+}
+
 .header__navbar {
   margin-top: 1rem;
 }
@@ -135,6 +143,11 @@ body {
   font-size: 2.5em;
   color: #434343;
   font-family: "Allison", cursive;
+}
+
+.ferme-brassicole p {
+  color: #666;
+  font-size: 0.9em;
 }
 
 @media screen and (min-width: 391px) {
@@ -174,4 +187,7 @@ body {
 }
 .ferme-brassicole__visuel img {
   width: 100%;
+}
+.ferme-brassicole asside {
+  padding: 20%;
 }/*# sourceMappingURL=style.css.map */
