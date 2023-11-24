@@ -1,52 +1,15 @@
-@use '../utils/spacing'
-@use '../utils/typos'
-//@use '../utils/all-utils'
+//@use '../utils/spacing'
+//@use '../utils/typos'
+@use '../utils/all-utils'
 @use '../utils/_colors' as color
-    
-.header
-    display: flex
-    padding: 1.5rem 0
 
-    &__container
-        display: flex
-        flex-direction: column
-        align-items: center
-        justify-content: center
-
-    &__logo
-        width: 20rem
-        margin: 1rem
-
-    &__baseline
-        @extend %text-baseline
-
-    &__navbar
-        @extend %top-s
-        @extend %text-menu
-        display: flex
-        justify-content: center
-        background-color: color.$blue-light
-        padding: 5px
-
-    &__navbar ul
-        width: 90%
-        display: flex
-        justify-content: space-around
-        align-items: center
-        list-style: none
-
-    &__navbar ul li a.active
-        text-decoration: underline
-    
-    &__navbar ul li a:hover
-        @extend %menu-hover
 
 .accueil
     padding: 0
     &__visuel img
         width: 100%
-    & asside
-        padding: 20%
+        @extend %bott-s
+        
     h2
         @extend %h2-title
     p, ul
@@ -55,7 +18,3 @@
         list-style: square
         margin-left: 30px
         @extend %topbott-s
-    
-        
-
-
