@@ -75,3 +75,7 @@ Temporary Items
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/sass,visualstudiocode,macos,git
+
+### Spécific à mon projet ###
+/assets/img/originales-jpg
+/assets/img/originales-webp

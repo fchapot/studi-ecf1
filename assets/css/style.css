@@ -122,37 +122,12 @@ table {
   padding: auto;
 }
 
-.block span, body .block__asterix, .block__card span {
-  margin-top: 0.5rem;
-}
-
-.header__navbar {
-  margin-top: 1rem;
-}
-
-.block__visuel img, .block img {
-  margin-bottom: 1rem;
-}
-
-.block ul {
-  margin: 1rem 0;
-}
-
-.container h2, .block h2 {
-  margin-top: 1.5rem;
-}
-
-footer .bandeau {
-  margin-top: 6rem;
-}
-
 body {
   font-family: "Open Sans", sans-serif;
 }
 
 .header__navbar {
   font-size: 0.9rem;
-  text-transform: uppercase;
 }
 
 .header__navbar ul li a:hover {
@@ -176,14 +151,13 @@ body {
 }
 
 .container h2, .block h2 {
-  font-family: "Cormorant Infant", serif;
-  font-size: 2em;
-  line-height: 5rem;
   text-align: center;
+  font-size: 2em;
+  font-family: "Cormorant Infant", serif;
 }
 
 .block span, .block__card span {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   color: #6c6c6c;
   text-transform: uppercase;
 }
@@ -194,10 +168,9 @@ body {
   color: #6c6c6c;
 }
 
-/*----------MEDIA QUERY------------*\ */
 @media screen and (min-width: 391px) {
   .header__navbar {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .block p, .block ul {
     font-size: 1.2rem;
@@ -216,6 +189,26 @@ body {
     font-size: 3rem;
   }
 }
+.block span, body .block__asterix, .block__card span {
+  margin-top: 0.5rem;
+}
+
+.header__navbar {
+  margin-top: 1rem;
+}
+
+.block__visuel img, .block img {
+  margin-bottom: 1rem;
+}
+
+.block ul {
+  margin: 1rem 0;
+}
+
+footer .bandeau {
+  margin-top: 6rem;
+}
+
 .header {
   display: flex;
   padding: 1.5rem 0;

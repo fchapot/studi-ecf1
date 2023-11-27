@@ -1,4 +1,3 @@
-@use 'spacing'
 @use 'fonts' as font
 @use 'colors' as color
 
@@ -7,8 +6,6 @@ body
 
 %text-menu
     font-size: 0.9rem
-    text-transform: uppercase
-
 %menu-hover
     color: color.$white
 
@@ -27,14 +24,12 @@ body
     font-size: .9em
 
 %h2-title
-    font-family: font.$mid-title
-    font-size: 2em
-    line-height: 5rem
-    @extend %top-m
     text-align: center
+    font-size: 2em
+    font-family: font.$mid-title
 
 %span-legende
-    font-size: .8rem
+    font-size: .7rem
     color: color.$font-grey
     text-transform: uppercase
 
@@ -44,11 +39,9 @@ body
     font-size: 1.8rem
     color: color.$font-grey
 
-/*----------MEDIA QUERY------------*\
-
 @media screen and (min-width: 391px)
     %text-menu
-        font-size: 1.3rem
+        font-size: 1.5rem
     %paragraphe
         font-size: 1.2rem
         line-height: 2.2rem
