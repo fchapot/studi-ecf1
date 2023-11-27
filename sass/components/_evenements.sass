@@ -3,3 +3,22 @@
 @use '../utils/all-utils'
 @use '../utils/fonts' as font
 @use '../utils/colors' as color
+
+.block
+    & span
+        @extend %top-xs
+        @extend %span-legende
+
+body
+    .block__asterix
+        font-size: .8em
+        text-align: center
+        @extend %top-xs 
+
+
+.container h2
+    @extend %h2-title
+
+sup
+    color: color.$blue-light
+    font-size: .7em

@@ -122,6 +122,30 @@ table {
   padding: auto;
 }
 
+.block span, body .block__asterix, .block__card span {
+  margin-top: 0.5rem;
+}
+
+.header__navbar {
+  margin-top: 1rem;
+}
+
+.block__visuel img, .block img {
+  margin-bottom: 1rem;
+}
+
+.block ul {
+  margin: 1rem 0;
+}
+
+.container h2, .block h2 {
+  margin-top: 1.5rem;
+}
+
+footer .bandeau {
+  margin-top: 6rem;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -151,14 +175,15 @@ body {
   font-size: 0.9em;
 }
 
-.block h2 {
-  text-align: center;
-  font-size: 2em;
+.container h2, .block h2 {
   font-family: "Cormorant Infant", serif;
+  font-size: 2em;
+  line-height: 5rem;
+  text-align: center;
 }
 
-.block__card span {
-  font-size: 0.7rem;
+.block span, .block__card span {
+  font-size: 0.8rem;
   color: #6c6c6c;
   text-transform: uppercase;
 }
@@ -169,43 +194,28 @@ body {
   color: #6c6c6c;
 }
 
+/*----------MEDIA QUERY------------*\ */
 @media screen and (min-width: 391px) {
   .header__navbar {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   .block p, .block ul {
     font-size: 1.2rem;
     line-height: 2.2rem;
   }
-  .block h2 {
+  .container h2, .block h2 {
     font-size: 5rem;
   }
   .header__baseline {
     font-size: 5rem;
   }
-  .block__card span {
+  .block span, .block__card span {
     font-size: 1rem;
   }
   .block__card h3 {
     font-size: 3rem;
   }
 }
-.block__card span {
-  margin-top: 0.5rem;
-}
-
-.header__navbar {
-  margin-top: 1rem;
-}
-
-.block__visuel img, .block img {
-  margin-bottom: 1rem;
-}
-
-.block ul {
-  margin: 1rem 0;
-}
-
 .header {
   display: flex;
   padding: 1.5rem 0;
@@ -239,17 +249,8 @@ body {
   list-style: none;
 }
 .header__navbar ul li a.active {
-  color: #89b7d5;
+  color: #f0dfd4;
 }
-footer .bandeau {
-  background-color: #915934;
-}
-footer .bandeau__copyright {
-  line-height: 3em;
-  text-align: center;
-  color: #89b7d5;
-}
-
 .block {
   padding: 0;
 }
@@ -284,4 +285,22 @@ footer .bandeau__copyright {
 .block__card {
   display: grid;
   justify-items: center;
+}
+body .block__asterix {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+sup {
+  color: #915934;
+  font-size: 0.7em;
+}
+
+footer .bandeau {
+  background-color: #915934;
+}
+footer .bandeau__copyright {
+  line-height: 3em;
+  text-align: center;
+  color: #f0dfd4;
 }/*# sourceMappingURL=style.css.map */
