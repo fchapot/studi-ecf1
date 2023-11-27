@@ -122,6 +122,30 @@ table {
   padding: auto;
 }
 
+.block span, body .block__asterix, .block__card span {
+  margin-top: 0.5rem;
+}
+
+.header__navbar {
+  margin-top: 1rem;
+}
+
+.block__visuel img, .block img {
+  margin-bottom: 1rem;
+}
+
+.block ul {
+  margin: 1rem 0;
+}
+
+.container h2, .block h2 {
+  margin-top: 1.5rem;
+}
+
+footer .bandeau {
+  margin-top: 6rem;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
 }
@@ -189,26 +213,6 @@ body {
     font-size: 3rem;
   }
 }
-.block span, body .block__asterix, .block__card span {
-  margin-top: 0.5rem;
-}
-
-.header__navbar {
-  margin-top: 1rem;
-}
-
-.block__visuel img, .block img {
-  margin-bottom: 1rem;
-}
-
-.block ul {
-  margin: 1rem 0;
-}
-
-footer .bandeau {
-  margin-top: 6rem;
-}
-
 .header {
   display: flex;
   padding: 1.5rem 0;
