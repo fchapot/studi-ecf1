@@ -137,11 +137,11 @@ body {
 .header__baseline {
   text-align: center;
   font-size: 2.5rem;
-  color: #434343;
+  color: #424141;
   font-family: "Allison", cursive;
 }
 
-.accueil p, .accueil ul {
+.block p, .block ul {
   text-align: justify;
   padding: 0 5%;
   margin: 1.5rem 0;
@@ -150,36 +150,58 @@ body {
   font-size: 0.9em;
 }
 
-.accueil h2 {
+.block h2 {
   text-align: center;
   font-size: 2em;
   font-family: "Cormorant Infant", serif;
+}
+
+.block__card span {
+  font-size: 0.7rem;
+  color: #6c6c6c;
+  text-transform: uppercase;
+}
+
+.block__card h3 {
+  font-family: "Allison", cursive;
+  font-size: 1.8rem;
+  color: #6c6c6c;
 }
 
 @media screen and (min-width: 391px) {
   .header__navbar {
     font-size: 1.5rem;
   }
-  .accueil p, .accueil ul {
-    font-size: 1.5rem;
-    line-height: 3rem;
+  .block p, .block ul {
+    font-size: 1.2rem;
+    line-height: 2.2rem;
   }
-  .accueil h2 {
+  .block h2 {
     font-size: 5rem;
   }
   .header__baseline {
     font-size: 5rem;
   }
+  .block__card span {
+    font-size: 1rem;
+  }
+  .block__card h3 {
+    font-size: 3rem;
+  }
 }
+.block__card span {
+  margin-top: 0.5rem;
+}
+
 .header__navbar {
   margin-top: 1rem;
 }
 
-.accueil__visuel img {
+.block__visuel img {
   margin-bottom: 1rem;
 }
 
-.accueil ul {
+.block ul {
   margin: 1rem 0;
 }
 
@@ -227,13 +249,38 @@ footer .bandeau__copyright {
   color: #f03a0c;
 }
 
-.accueil {
+.block {
   padding: 0;
 }
-.accueil__visuel img {
+.block__visuel img {
   width: 100%;
 }
-.accueil ul {
+.block ul {
   list-style: square;
   margin-left: 30px;
+}
+
+.block {
+  padding: 0;
+}
+.block__visuel img {
+  width: 100%;
+}
+.block ul {
+  list-style: square;
+  margin-left: 30px;
+}
+.block__card {
+  padding: 6%;
+}
+.block__photos img {
+  width: 100%;
+}
+.block__photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.block__card {
+  display: grid;
+  justify-items: center;
 }/*# sourceMappingURL=style.css.map */

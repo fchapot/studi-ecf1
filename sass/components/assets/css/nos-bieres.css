@@ -1,0 +1,53 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.block p, .block ul {
+  text-align: justify;
+  padding: 0 5%;
+  margin: 1.5rem 0;
+  line-height: 1.5rem;
+  color: #6c6c6c;
+  font-size: 0.9em;
+}
+
+.block h2 {
+  text-align: center;
+  font-size: 2em;
+  font-family: "Cormorant Infant", serif;
+}
+
+@media screen and (min-width: 391px) {
+  .block p, .block ul {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  .block h2 {
+    font-size: 5rem;
+  }
+}
+.block__visuel img {
+  margin-bottom: 1rem;
+}
+
+.block ul {
+  margin: 1rem 0;
+}
+
+.block {
+  padding: 0;
+}
+.block__visuel img {
+  width: 100%;
+}
+.block ul {
+  list-style: square;
+  margin-left: 30px;
+}
+.block__photos-bieres img {
+  width: auto;
+}
+.block__photos-bieres {
+  width: 100%;
+  display: flex;
+}/*# sourceMappingURL=nos-bieres.css.map */
