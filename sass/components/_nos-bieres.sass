@@ -1,0 +1,45 @@
+//@use '../utils/spacing'
+//@use '../utils/typos'
+@use '../utils/all-utils'
+@use '../utils/fonts' as font
+@use '../utils/colors' as color
+
+.block
+    padding: 0
+    &__visuel img
+        width: 100%
+        @extend %bott-s
+        
+    h2
+        @extend %h2-title
+
+    p, ul
+        @extend %paragraphe
+
+    ul
+        list-style: square
+        margin-left: 30px
+        @extend %topbott-s
+
+    &__card
+        padding: 6%
+
+    &__photos img
+        
+        width: 100%
+    
+    &__photos
+        display: grid
+        grid-template-columns: 1fr 1fr
+
+    &__card
+        display: grid
+        justify-items: center
+
+    &__card span
+        @extend %top-xs
+        @extend %span-legende
+        
+    &__card h3
+        @extend %h3-baseline
+        
