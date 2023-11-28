@@ -182,9 +182,12 @@ body {
 }
 
 .block span, .block__card span {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: #6c6c6c;
   text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 
 .block__card h3 {
